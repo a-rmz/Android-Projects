@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ITESO Log-in</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="login">INGRESAR</string>
+    <string name="copyright">Copyright 2016 ITESO. Todos los derechos reservados.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ITESO Log-in</string>
+    <string name="user_name">Username</string>
+    <string name="pass">Password</string>
+    <string name="login">ENTER</string>
+    <string name="copyright">Copyright 2016 ITESO. All rights reserved.</string>
+</resources>
