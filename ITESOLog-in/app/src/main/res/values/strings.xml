@@ -4,4 +4,5 @@
     <string name="pass">Contraseña</string>
     <string name="login">INGRESAR</string>
     <string name="copyright">Copyright 2016 ITESO. Todos los derechos reservados.</string>
+    <string name="no_login">El nombre de usuario o contraseña están vacíos</string>
 </resources>

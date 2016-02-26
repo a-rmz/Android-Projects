@@ -5,4 +5,5 @@
     <string name="pass">Password</string>
     <string name="login">ENTER</string>
     <string name="copyright">Copyright 2016 ITESO. All rights reserved.</string>
+    <string name="no_login">The username or password is empty</string>
 </resources>
