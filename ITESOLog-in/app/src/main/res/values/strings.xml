@@ -5,4 +5,7 @@
     <string name="login">INGRESAR</string>
     <string name="copyright">Copyright 2016 ITESO. Todos los derechos reservados.</string>
     <string name="no_login">El nombre de usuario o contraseña están vacíos</string>
+    <string name="cancelled">Login cancelado</string>
+    <string name="sent">Mensaje enviado</string>
+    <string name="confirm">¿Estás seguro de firmarte?</string>
 </resources>

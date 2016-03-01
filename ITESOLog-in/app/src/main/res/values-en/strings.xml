@@ -6,4 +6,7 @@
     <string name="login">ENTER</string>
     <string name="copyright">Copyright 2016 ITESO. All rights reserved.</string>
     <string name="no_login">The username or password is empty</string>
+    <string name="cancelled">Login cancelled</string>
+    <string name="sent">Message sent</string>
+    <string name="confirm">Are you sure to sign in?</string>
 </resources>
