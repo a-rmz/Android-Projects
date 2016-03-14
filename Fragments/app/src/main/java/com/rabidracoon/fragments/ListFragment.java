@@ -9,7 +9,7 @@ import android.widget.ListView;
 /**
  * Created by alex on 2/29/16.
  */
-public class listFragment extends android.app.ListFragment {
+public class ListFragment extends android.app.ListFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -25,12 +25,19 @@ public class listFragment extends android.app.ListFragment {
         setListAdapter(adapter);
     }
 
+
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
         String item = (String) getListAdapter().getItem(position);
 
-        Intent intent = new Intent(getActivity().getApplicationContext(), DetailActivity.class);
-        intent.putExtra("value", item);
-        startActivity(intent);
+        DetailFragment detailFragment = (DetailFragment) getFragmentManager().findFragmentById(R.id.detailFragment);
+
+        if(detailFragment != null && detailFragment.isInLayout()) {
+            detailFragment.setText(item);
+        } else {
+            Intent intent = new Intent(getActivity().getApplicationContext(), DetailActivity.class);
+            intent.putExtra("value", item);
+            startActivity(intent);
+        }
     }
 }

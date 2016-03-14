@@ -13,15 +13,8 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:layout_width="160dp"
-        android:layout_height="match_parent"
-        class="com.rabidracoon.fragments.ListFragment"/>
-    
-    <fragment
-        android:id="@+id/detailFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="com.rabidracoon.fragments.DetailFragment"/>
-
+        class="com.rabidracoon.fragments.ListFragment"/>
 
 </LinearLayout>
