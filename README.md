@@ -5,3 +5,4 @@ The contents of this repo are the next:
 * LoginITESO
 * Fragments
 * Intents
+* Parcelable
