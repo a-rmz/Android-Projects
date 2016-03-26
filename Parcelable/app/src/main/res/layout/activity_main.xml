@@ -10,8 +10,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.rabidraccoon.parcelable.ActivityMain">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/to"
+        android:hint="@string/to"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_below="@id/to"
+        android:hint="@string/subject"
+        android:inputType="textEmailSubject"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_below="@id/subject"
+        android:hint="@string/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_below="@+id/message"
+        android:layout_centerHorizontal="true"
+        android:text="@string/send"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>

@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Parcelable</string>
+    <string name="app_name">Send a mail</string>
+    <string name="app_name_2">Receive a mail</string>
+
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send mail</string>
+    <string name="back">Go back</string>
 </resources>
